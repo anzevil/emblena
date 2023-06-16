@@ -7,7 +7,7 @@ primary:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mariadb://10.81.209.95:3306/mymaria?useUnicode=true&serverTimezone=Asia/Seoul
     user: root
-    password: "!admin1234"
+    password: "9hZDjjVcSmZdvjfJqN+XxrJqssrQ0Hx97O8vxSQzPW0="
     initialization-mode: always
     sql-script-encoding: utf-8
     hibernate:
@@ -20,7 +20,7 @@ secondary:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mariadb://10.81.209.95:3306/mymaria?useUnicode=true&serverTimezone=Asia/Seoul
     user: root
-    password: "!admin1234"
+    password: "9hZDjjVcSmZdvjfJqN+XxrJqssrQ0Hx97O8vxSQzPW0="
     initialization-mode: always
     sql-script-encoding: utf-8
     hibernate:
