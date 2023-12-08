@@ -14,7 +14,7 @@ primary:
       #dialect: org.hibernate.dialect.PostgreSQLDialect
       dialect: org.hibernate.dialect.MySQL5Dialec
     hikari:
-      maximum-pool-size: 5
+      maximum-pool-size: 3
 secondary:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
@@ -26,4 +26,4 @@ secondary:
     hibernate:
       dialect: org.hibernate.dialect.MySQL5Dialec
     hikari:
-      maximum-pool-size: 5
+      maximum-pool-size: 3
